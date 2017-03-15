@@ -23,7 +23,7 @@ class ViewController: UIViewController,GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //admob
         bannerView.delegate = self
         bannerView.adUnitID = "ca-app-pub-2285514931101689/4045103452"
         bannerView.rootViewController  = self
